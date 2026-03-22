@@ -82,12 +82,11 @@ El archivo contiene 4 hojas:
 ## 🖼️ Vista Previa
 
 **Dashboard de vulnerabilidades:**
-
-![Dashboard](preview1.png)
+![Resumen](preview2.png)
 
 **Resumen ejecutivo:**
+![Dashboard](preview1.png)
 
-![Resumen](preview2.png)
 
 ---
 
@@ -96,8 +95,8 @@ El archivo contiene 4 hojas:
 ```
 auditoria-seguridad-red/
 ├── auditoria_red.xlsx    # Reporte completo Excel
-├── preview1.png          # Dashboard
-├── preview2.png          # Resumen ejecutivo
+├── preview2.png          # Dashboard
+├── preview1.png          # Resumen ejecutivo
 └── README.md             # Documentación
 ```
 
