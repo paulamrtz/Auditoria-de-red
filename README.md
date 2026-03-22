@@ -2,7 +2,12 @@
 ### Análisis de Vulnerabilidades — Reporte en Excel
 
 ---
+## 🖼️ Vista Previa
 
+**Dashboard de vulnerabilidades:**
+![Dashboard](preview1.png)
+
+---
 ## 📋 Descripción del Proyecto
 
 Reporte de auditoría de seguridad desarrollado en **Microsoft Excel** simulando un análisis real de vulnerabilidades en la infraestructura de red de una organización. El proyecto aplica conceptos de la **ISO 27001** para identificar, clasificar y documentar vulnerabilidades por nivel de riesgo y estado de resolución.
@@ -38,7 +43,7 @@ El archivo contiene 4 hojas:
 ## 📐 Fórmulas Utilizadas
 
 ```excel
--- Total de vulnerabilidades
+-- Vulnerabilidades en total
 =COUNTA(Vulnerabilidades!A2:A1000)
 
 -- Vulnerabilidades por nivel de riesgo
@@ -47,7 +52,7 @@ El archivo contiene 4 hojas:
 =COUNTIF(Vulnerabilidades!E2:E1000,"Medio")
 =COUNTIF(Vulnerabilidades!E2:E1000,"Bajo")
 
--- Estado de resolución
+-- Estado de resolución de vulnerabilidades
 =COUNTIF(Vulnerabilidades!F2:F1000,"Resuelto")
 =COUNTIF(Vulnerabilidades!F2:F1000,"Pendiente")
 =COUNTIF(Vulnerabilidades!F2:F1000,"En Proceso")
@@ -78,15 +83,10 @@ El archivo contiene 4 hojas:
 - 🟠 **72% de vulnerabilidades pendientes** — capacidad de resolución insuficiente
 
 ---
-
-## 🖼️ Vista Previa
-
-**Dashboard de vulnerabilidades:**
-![Resumen](preview2.png)
+## 🖼️ Vista Previa del resumen
 
 **Resumen ejecutivo:**
-![Dashboard](preview1.png)
-
+![Resumen](preview2.png)
 
 ---
 
