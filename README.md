@@ -5,7 +5,7 @@
 ## 🖼️ Vista Previa
 
 **Dashboard de vulnerabilidades:**
-![Dashboard](preview1.png)
+![Dashboard](preview2.png)
 
 ---
 ## 📋 Descripción del Proyecto
@@ -86,7 +86,7 @@ El archivo contiene 4 hojas:
 ## 🖼️ Vista Previa del resumen
 
 **Resumen ejecutivo:**
-![Resumen](preview2.png)
+![Resumen](preview1.png)
 
 ---
 
